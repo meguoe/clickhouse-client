@@ -1,0 +1,27 @@
+{
+  "name": "clickhouse-client",
+  "version": "1.0.0",
+  "description": "a lightweight clickhouse tools for nodejs",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint . --fix --cache; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meguoe/clickhouse-client"
+  },
+  "author": "meguoe@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "ali-rds": "^3.3.0",
+    "clickhouse": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.0.1",
+    "eslint-config-egg": "^7.4.1",
+    "jest": "^23.1.0"
+  }
+}
