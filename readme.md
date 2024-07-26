@@ -9,7 +9,7 @@
 初始化如下
 
 ```javascript
-const ChClient = require('clickhouse-client');
+const ChClient = require('@meguoe/clickhouse-client');
 
 const db = new ChClient({
   url: 'http://localhost',
