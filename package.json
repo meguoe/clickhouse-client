@@ -1,6 +1,6 @@
 {
   "name": "@meguoe/clickhouse-client",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "a lightweight clickhouse tools for nodejs",
   "main": "lib/index.js",
   "scripts": {
